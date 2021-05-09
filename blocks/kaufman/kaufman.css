@@ -1,7 +1,6 @@
 .kaufman{
   width: 100%;
   display:flex;
-  border: solid 1px white;
   background-color:#1f1f1f;
   flex-direction: column;
   align-items: center;

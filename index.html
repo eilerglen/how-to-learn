@@ -7,22 +7,22 @@
   <title>Научиться учиться</title>
 </head>
 <body class = "page">
-  <!--Начинается блок header-->
 
+  <!--header-->
   <header class = "header">
     <div class="header__main-illustration"> </div>
-    <img src="images/logo.svg" alt="Логотип Яндекс" class="logo header__logo">
+    <img src="images/logo.svg" alt="Логотип Яндекс" class="logo logo_place_header">
     <h1 class="header__title"> Научиться учиться</h1>
     <p class="header__subtitle">
-      Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href = "#techniques" class = "header__link"> Узнать </a>
+      Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href = "#techniques" class = "header__link"> Узнать &#8594;</a>
     <p>
     <div class = "header__square-pic rotation"></div>
   </header>
 
-  <!--Начинается блок контент-->
+  <!--Начинается основной контент страницы-->
 
   <main class = "content">
-    <!--Начинается секция desciption-->
+    <!--desciption-->
     <section class="description">
       <div class = "two-columns">
         <h2 class = "two-columns__brief"> Главные проблемы в обучении</h2>
@@ -36,7 +36,7 @@
       </div>
     </section>
     
-   <!--Начинается блок techniques-->
+   <!--techniques-->
     <section class="techniques" id="techniques">
       <h2 class = "section-title techniques__section-title"> Техники обучения </h2>
       <p class = " section-subtitle techniques__section-subtitle"> Пять практик от Барбары Оакли </p>
@@ -103,7 +103,7 @@
     <section class = "feynman">
       <h2 class = "feynman__title"> Метод Фейнмана </h2>
       <p class = "feynman__subtitle"> Выучить и не забыть </p>
-      <a href = "https://lifehacker.ru/metod-fejnmana/" class = "feynman__link"  target="_blank"> Подробнее &#8594</a>
+      <a href = "https://lifehacker.ru/metod-fejnmana/" class = "feynman__link"  target="_blank"> Подробнее &#8594;</a>
     </section>
     <!--digits-->
     <section class="digits">
@@ -160,8 +160,8 @@
       <p class = "khan__quote-author">Джордж Лукас</p>
       <p class = "khan__quote-author-subline"> Кинорежиссер, продюсер</p>
       <div class = "khan__book-container"> 
-        <div class = "khan__book-pic"> </div>
-        <a href = "https://www.labirint.ru/books/483575/" class = "khan__buy-link"  target="_blank"> Купить книгу &#8594 </a>
+        <img src = "images/khan-book.jpg" class="khan__book-pic" alt = "Изображение книги Весь мир - школа"> 
+        <a href = "https://www.labirint.ru/books/483575/" class = "khan__buy-link"  target="_blank"> Купить книгу &#8594; </a>
       </div>
     </div>
   </section>
@@ -240,21 +240,21 @@
     <div class = "footer__columns">
       <!--элемент  column_content-copyright-->
       <div class = "footer__column footer__column_content-copyright">  
-        <img src="images/logo_white.svg" alt="Логотип Яндекс" class="logo footer__logo">
-        <p class = "footer__author">&copy Глен Зангеев </p>
+        <img src="images/logo_white.svg" alt="Логотип Яндекс" class="logo logo_place_footer">
+        <p class = "footer__author">&copy; Глен Зангеев </p>
       </div>
       <!--info -->
-      <div class = "footer__column footer__column_content-info"> 
+      <nav class = "footer__column footer__column_content-info"> 
        <h2 class = "footer__column-heading"> О Практикуме </h2>
        <ul class = "footer__column-links"> 
          <li class = "footer__list"><a href = "https://praktikum.yandex.ru" class = "footer__column-link"> Главная </a> </li>
          <li class = "footer__list"><a href = "#" class = "footer__column-link"> Концепция </a> </li>
          <li class = "footer__list"><a href = "#" class = "footer__column-link"> Наставники </a></li>
        </ul>
-      </div>
+      </nav>
 
       <!-- social-->
-      <div class = "footer__column footer__column_content-social"> 
+      <nav class = "footer__column footer__column_content-social"> 
         <h2 class = "footer__column-heading"> Соцсети </h2>
         <ul class = "footer__column-links"> 
             <li class = "footer__list">
@@ -267,7 +267,7 @@
               <a href = "https://www.instagram.com/yndx.praktikum/?hl=ru" class = "footer__column-link" target = "_blank">  <img src = "images/instagram_white.svg" alt = "иконка instagram" class = "footer__social-icon">Instagram </a> 
             </li>
         </ul>
-      </div>
+      </nav>
 
     </div>
   </footer>
