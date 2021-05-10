@@ -3,8 +3,6 @@
  flex-direction: column;
  margin-top: 20px;
  margin-bottom: 16px;
- padding-left: 3px;
- padding-right: 0;
 }
 
 .footer__list:last-of-type{
